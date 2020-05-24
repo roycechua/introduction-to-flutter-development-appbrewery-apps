@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blue.shade900,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                       Icons.phone,
-                      color: Colors.blue
+                      color: Colors.blue.shade900
                   ),
                   title: Text(
                     '+44 123 456 789',
@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                       Icons.email,
-                      color: Colors.blue
+                      color: Colors.blue.shade900
                   ),
                   title: Text(
                     'royce@gmail.com',
