@@ -13,7 +13,7 @@ class BallPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue,
       appBar: AppBar(
-        title: Text('Ask my anything'),
+        title: Text('Ask me anything'),
         backgroundColor: Colors.blue[900],
       ),
       body: Center(
